@@ -2,7 +2,7 @@
 <img width="369" height="167" alt="image" src="https://github.com/user-attachments/assets/067af0d3-8e31-4255-b1e5-1fd0c05374e1" />
 
 
-🌡️ Diabetes Prediction Using Machine Learning (Flask App)
+****🌡️ Diabetes Prediction Using Machine Learning (Flask App)****
 
 This is a Machine Learning + Flask Web App that predicts whether a person is Diabetic or Non-Diabetic based on medical input parameters.
 
@@ -10,60 +10,47 @@ This is a Machine Learning + Flask Web App that predicts whether a person is Dia
 ✔ Clean and simple web interface
 ✔ Uses trained ML model + StandardScaler
 
-🚀 Features
+****🚀 Features****
 
 User-friendly web form
 
-Takes input parameters:
 
-Pregnancies
+****Takes input parameters****:
+Pregnancies,
+Glucose,
+Blood Pressure,
+Skin Thickness,
+Insulin,
+BMI,
+Diabetes Pedigree Function,
+Age,
+Predicts:,
+Diabetic,
+Non-Diabetic.
 
-Glucose
+****📂 Project Structure=>****  
+├── app.py  
+**├── model  
+│   ├── standardScaler.pkl  
+│   └── modelForPrediction.pkl  
+**
+├── templates  
+│   ├── index.html  
+│   ├── home.html  
+│   └── single_prediction.html  
+----------------
+└── Dataset  
 
-Blood Pressure
-
-Skin Thickness
-
-Insulin
-
-BMI
-
-Diabetes Pedigree Function
-
-Age
-
-Predicts:
-
-Diabetic
-
-Non-Diabetic
-
-📂 Project Structure
-├── app.py
-├── model
-│   ├── standardScaler.pkl
-│   └── modelForPrediction.pkl
-├── templates
-│   ├── index.html
-│   ├── home.html
-│   └── single_prediction.html
-└── Dataset
-
-🛠️ Technologies Used
-
-Python
-
-Flask
-
-NumPy
-
-Pandas
-
-Scikit-Learn
-
-Pickle
+****🛠️ Technologies Used=>>****
+Python,
+Flask,
+NumPy,
+Pandas,
+Scikit-Learn,
+Pickle.
 
 ▶️ How to Run Locally
+
 1️⃣ Install dependencies
 pip install -r req.txt
 
