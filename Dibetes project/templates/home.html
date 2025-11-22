@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML API</title>
+ </head>
+ <body>
+    <div class="login">
+    <h1>Diabetes Prediction</h1>
+
+<form action="/predictdata" method="post">
+
+    <input type="text" name="Pregnancies" placeholder="Pregnancies" required><br><br>
+
+    <input type="text" name="Glucose" placeholder="Glucose" required><br><br>
+
+    <input type="text" name="BloodPressure" placeholder="BloodPressure" required><br><br>
+
+    <input type="text" name="SkinThickness" placeholder="SkinThickness" required><br><br>
+
+    <input type="text" name="Insulin" placeholder="Insulin" required><br><br>
+
+    <input type="text" name="BMI" placeholder="BMI" required><br><br>
+
+    <input type="text" name="DiabetesPedigreeFunction" placeholder="DiabetesPedigreeFunction" required><br><br>
+
+    <input type="text" name="Age" placeholder="Age" required><br><br>
+
+    <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+
+</form>
+<br>
+<br>
+</div>
+
+{{result}}
+
+</body>
+ </html>
